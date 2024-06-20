@@ -33,3 +33,5 @@ test_labels = to_categorical(test_labels)
 #Etapa de entrenamiento
 
 model.fit(train_images, train_labels, epochs=5, batch_size = 128)
+
+#Fin
